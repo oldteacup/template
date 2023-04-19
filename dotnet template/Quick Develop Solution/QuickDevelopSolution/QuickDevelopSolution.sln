@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HandyControl", "HandyControl", "{4832EBFF-D704-48A6-AAA5-C824187D3214}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickDevelopSolution.App", "QuickDevelopSolution.App\QuickDevelopSolution.App.csproj", "{4FCF421E-9A87-4369-98B1-77516B3B7CD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandyControl", "HandyControl\HandyControl\HandyControl.csproj", "{19B4A440-CCF0-4768-A71F-0CFED4C3E358}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HandyControl_Shared", "HandyControl\HandyControl_Shared\HandyControl_Shared.shproj", "{AAC11083-FACA-405D-9197-5C1212D65656}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.Expression.Drawing", "HandyControl\Microsoft.Expression.Drawing\Microsoft.Expression.Drawing.shproj", "{E5DC7C25-6293-4660-B5FB-186496386B90}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.Expression.Interactions", "HandyControl\Microsoft.Expression.Interactions\Microsoft.Expression.Interactions.shproj", "{6F0C9CFF-2269-46A7-9664-478354C582A4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "System.Windows.Interactivity", "HandyControl\System.Windows.Interactivity\System.Windows.Interactivity.shproj", "{3531857C-28FC-4E0F-82D9-BFBB70740E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FCF421E-9A87-4369-98B1-77516B3B7CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCF421E-9A87-4369-98B1-77516B3B7CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCF421E-9A87-4369-98B1-77516B3B7CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCF421E-9A87-4369-98B1-77516B3B7CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B4A440-CCF0-4768-A71F-0CFED4C3E358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B4A440-CCF0-4768-A71F-0CFED4C3E358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B4A440-CCF0-4768-A71F-0CFED4C3E358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B4A440-CCF0-4768-A71F-0CFED4C3E358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19B4A440-CCF0-4768-A71F-0CFED4C3E358} = {4832EBFF-D704-48A6-AAA5-C824187D3214}
+		{AAC11083-FACA-405D-9197-5C1212D65656} = {4832EBFF-D704-48A6-AAA5-C824187D3214}
+		{E5DC7C25-6293-4660-B5FB-186496386B90} = {4832EBFF-D704-48A6-AAA5-C824187D3214}
+		{6F0C9CFF-2269-46A7-9664-478354C582A4} = {4832EBFF-D704-48A6-AAA5-C824187D3214}
+		{3531857C-28FC-4E0F-82D9-BFBB70740E04} = {4832EBFF-D704-48A6-AAA5-C824187D3214}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F11989CD-4576-408A-9BA5-261531EDDF60}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HandyControl\HandyControl_Shared\HandyControl_Shared.projitems*{19b4a440-ccf0-4768-a71f-0cfed4c3e358}*SharedItemsImports = 5
+		HandyControl\Microsoft.Expression.Drawing\Microsoft.Expression.Drawing.projitems*{19b4a440-ccf0-4768-a71f-0cfed4c3e358}*SharedItemsImports = 5
+		HandyControl\Microsoft.Expression.Interactions\Microsoft.Expression.Interactions.projitems*{19b4a440-ccf0-4768-a71f-0cfed4c3e358}*SharedItemsImports = 5
+		HandyControl\System.Windows.Interactivity\System.Windows.Interactivity.projitems*{19b4a440-ccf0-4768-a71f-0cfed4c3e358}*SharedItemsImports = 5
+		HandyControl\System.Windows.Interactivity\System.Windows.Interactivity.projitems*{3531857c-28fc-4e0f-82d9-bfbb70740e04}*SharedItemsImports = 13
+		HandyControl\Microsoft.Expression.Interactions\Microsoft.Expression.Interactions.projitems*{6f0c9cff-2269-46a7-9664-478354c582a4}*SharedItemsImports = 13
+		HandyControl\HandyControl_Shared\HandyControl_Shared.projitems*{aac11083-faca-405d-9197-5c1212d65656}*SharedItemsImports = 13
+		HandyControl\Microsoft.Expression.Drawing\Microsoft.Expression.Drawing.projitems*{e5dc7c25-6293-4660-b5fb-186496386b90}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

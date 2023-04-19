@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "https://oldteacup.com", 
+    "classifications": [ "Solution" ], 
+    "name": "WPF 快速开发解决方案（UI基于HandyControl）",
+    "identity": "WPF Application Quick Develop Solution Template",
+    "shortName": "qds",
+    "tags": {
+      "language": "C#" ,
+      "type":"project"
+    },
+    "sourceName": "QuickDevelopSolution",
+    "preferNameDirectory": true
+}

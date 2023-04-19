@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "https://blog.oldteacup.com", 
+    "classifications": [ "WPF/Domain Driven Design" ], 
+    "name": "WPF DDD(领域驱动设计)快速开发解决方案",
+    "identity": "Domain Driven Design WPF Application Quick Develop Solution",
+    "shortName": "wpf-ddd",
+    "tags": {
+      "language": "C#" ,
+      "type":"project"
+    },
+    "sourceName": "DDDTemplateSolution",
+    "preferNameDirectory": true
+}

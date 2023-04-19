@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "https://blog.oldteacup.com", 
+    "classifications": [ "Common/Template" ], 
+    "name": "WPF MVVM 项目开发模板",
+    "identity": "WPF Mvvm Project Template",
+    "shortName": "mvvm",
+    "tags": {
+      "language": "C#" ,
+      "type":"project"
+    },
+    "sourceName": "MvvmProjectTemplate",
+    "preferNameDirectory": true
+}

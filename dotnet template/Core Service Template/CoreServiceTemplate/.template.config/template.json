@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "https://blog.oldteacup.com", 
+    "classifications": [ "Common/Template" ], 
+    "name": "Core Service 开发模板",
+    "identity": "Core Service Project Template",
+    "shortName": "coreservice",
+    "tags": {
+      "language": "C#" ,
+      "type":"project"
+    },
+    "sourceName": "CoreServiceTemplate",
+    "preferNameDirectory": true
+}
