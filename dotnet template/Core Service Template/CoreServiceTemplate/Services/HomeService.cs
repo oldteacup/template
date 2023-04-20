@@ -19,7 +19,7 @@ namespace CoreServiceTemplate.Services
         public string SayHello()
         {
             _logService.Information("Say Hello Method Invoke !");
-            return $"{DateTime.Now:yyyy-MM-dd HH:mm:ss:fff} \t Hello Core Service !";
+            return $"{DateTime.Now:yyyy-MM-dd HH:mm:ss:fff} \t Hello Service Core !";
         }
     }
 }
