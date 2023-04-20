@@ -1,11 +1,11 @@
-﻿using CoreServiceTemplate.IServices;
+﻿using ServiceCoreTemplate.IServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreServiceTemplate.Services
+namespace ServiceCoreTemplate.Services
 {
     internal class HomeService : IHomeService
     {

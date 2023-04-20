@@ -2,13 +2,13 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "https://blog.oldteacup.com", 
     "classifications": [ "Common/Template" ], 
-    "name": "Core Service 开发模板",
-    "identity": "Core Service Project Template",
-    "shortName": "coreservice",
+    "name": "Service Core 开发模板",
+    "identity": "Service Core Project Template",
+    "shortName": "core",
     "tags": {
       "language": "C#" ,
       "type":"project"
     },
-    "sourceName": "CoreServiceTemplate",
+    "sourceName": "ServiceCoreTemplate",
     "preferNameDirectory": true
 }

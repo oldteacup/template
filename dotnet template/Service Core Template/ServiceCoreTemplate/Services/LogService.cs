@@ -1,9 +1,9 @@
-﻿using CoreServiceTemplate.IServices;
+﻿using ServiceCoreTemplate.IServices;
 using Serilog;
 using Serilog.Core;
 using Serilog.Events;
 
-namespace CoreServiceTemplate.Services
+namespace ServiceCoreTemplate.Services
 {
     internal class LogService : ILogService
     {

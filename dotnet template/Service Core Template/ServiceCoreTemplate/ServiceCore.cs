@@ -1,12 +1,12 @@
-﻿using CoreServiceTemplate.DependencyInjection;
-using CoreServiceTemplate.IServices;
-using CoreServiceTemplate.Services;
+﻿using ServiceCoreTemplate.DependencyInjection;
+using ServiceCoreTemplate.IServices;
+using ServiceCoreTemplate.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog.Events;
 using Serilog;
 using System.Diagnostics.CodeAnalysis;
 
-namespace CoreServiceTemplate
+namespace ServiceCoreTemplate
 {
     public class ServiceCore
     {

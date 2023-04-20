@@ -2,7 +2,7 @@
 using Serilog.Core;
 using Serilog.Events;
 
-namespace CoreServiceTemplate.IServices
+namespace ServiceCoreTemplate.IServices
 {
     public interface ILogService
     {

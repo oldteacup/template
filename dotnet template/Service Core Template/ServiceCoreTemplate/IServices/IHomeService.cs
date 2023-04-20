@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreServiceTemplate.IServices
+namespace ServiceCoreTemplate.IServices
 {
     public interface IHomeService
     {
