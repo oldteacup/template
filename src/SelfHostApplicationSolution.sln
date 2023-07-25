@@ -3,12 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostApplication.Host", "SelfHostApplication.Host\SelfHostApplication.Host.csproj", "{ED7D6D4C-9CF8-4D96-9CEF-5174F29CA894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostApplication.WindowsClient", "SelfHostApplication.WindowsClient\SelfHostApplication.WindowsClient.csproj", "{733C1300-D108-4367-99E9-AE3CC4903F0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED7D6D4C-9CF8-4D96-9CEF-5174F29CA894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7D6D4C-9CF8-4D96-9CEF-5174F29CA894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7D6D4C-9CF8-4D96-9CEF-5174F29CA894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7D6D4C-9CF8-4D96-9CEF-5174F29CA894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733C1300-D108-4367-99E9-AE3CC4903F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733C1300-D108-4367-99E9-AE3CC4903F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733C1300-D108-4367-99E9-AE3CC4903F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733C1300-D108-4367-99E9-AE3CC4903F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87B4693B-FC73-4007-9A4D-3FDD4DDCF98C}
 	EndGlobalSection
 EndGlobal
