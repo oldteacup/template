@@ -1,0 +1,8 @@
+﻿<Project>
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+        <Authors>oldteacup</Authors>
+        <RepositoryUrl>https://oldteacup.github.io/</RepositoryUrl>
+        <PackageProjectUrl>https://oldteacup.github.io/</PackageProjectUrl>
+    </PropertyGroup>
+</Project>
