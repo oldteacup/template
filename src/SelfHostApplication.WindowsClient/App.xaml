@@ -2,8 +2,12 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:SelfHostApplication.WindowsClient"
-             StartupUri="View/Windows/MainWindow.xaml">
+             StartupUri="pack://application:,,,/SelfHostApplication.WindowsClient;component/View/Windows/MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary.MergedDictionaries>
+            <ViewModelLocator x:Key="Locator" xmlns="clr-namespace:SelfHostApplication.WindowsClient.ViewModel" />
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
